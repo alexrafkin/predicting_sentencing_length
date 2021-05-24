@@ -1,0 +1,6 @@
+# predicting_sentencing_length
+Predicting sentencing length of inmates from the Illinois Dept of Corrections
+
+In this project, I am working with a dataset from the Illinois Department of Corrections. This dataset contains information on the parole population of Illinois as of September 30, 2020. It catalogues around 24,000 people who have been released on parole. For each person, the dataset has their ID Number, Name, DoB, Sex, Race, Veteran Status, Current Admission Date, Admission Type, Parent Institution, Mandatory Supervised Release Date, Projected Discharge Date, Custody Date, Sentence Date, Crime Class, Holding Offense, Sentence Years, Sentence Months, Truth in Sentencing, Sentencing County, County of Residence, and Residence Zip Code.
+
+Given certain characteristics and information about each person, I plan to build a model which can predict the length of time which somebody would be sentenced. I then want to compare it to a reduced model with no personal data about each person, to see if the algorithms are more accurate when using personal data. If there is a significant difference between the two models, then personal data would be a major factor in determining sentence length. I will discuss what is classified as 'personal data' later.
